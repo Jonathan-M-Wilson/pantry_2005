@@ -41,7 +41,7 @@ class CookBookTest < Minitest::Test
     @cookbook.add_recipe(@recipe1)
     @cookbook.add_recipe(@recipe2)
 
-    assert_equal ["Cheese", "Macaroni", "Ground Beef", "Bun"] , @cookbook.ingredients
+    assert_equal ["Cheese", "Macaroni", "Ground Beef", "Bun"], @cookbook.ingredients
   end
 
   def test_it_can_find_the_recipe_with_highest_calories
